@@ -1,7 +1,7 @@
 ---
-title: "Çalışmanızın Başlığı"
+title: "Telefon Seçiminde Özellikler ve Fiyat Skalası"
 author: 
-  - İsim Soyisim[^1]
+  - Göksu Vatansever[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa-tr.csl
 header-includes:
@@ -25,49 +25,54 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 abstract: |
-  Bu bölümde çalışmanızın özetini yazınız.
+    Mobil telefon pazarı, son yıllarda büyük bir ivme kazanmış ve hızla büyümeye devam etmektedir. Tüketici talepleri değişirken, telefon üreticileri rekabetçi bir ortamda farklılaşmak için sürekli olarak yeni özellikler sunmaktadır. Bu nedenle, telefon özellikleri ile fiyatlar arasındaki ilişkiyi anlamak ve analiz etmek, tüketicilere doğru ürünü seçme konusunda rehberlik etmek ve şirketlerin rekabet avantajı elde etmelerine yardımcı olmak açısından büyük bir önem taşımaktadır.Bu çalışmada, telefon özellikleri ile fiyatlar arasındaki ilişkiyi araştırmayı amaçladık. İlk olarak, önemli telefon özelliklerini belirleyip sınıflandırdık. Bu özellikler arasında işletim sistemi, işlemci hızı, RAM kapasitesi, depolama alanı, kamera çözünürlüğü, batarya ömrü ve ekran boyutu gibi faktörler yer almaktadır. Ardından, farklı fiyat aralıklarında bulunan telefonları analiz ettik.Araştırmamız için geniş bir veri seti kullandık ve istatistiksel analizler gerçekleştirdik. Özelliklerin fiyat üzerindeki etkisini inceledik ve çeşitli grafikler ve istatistiklerle sonuçlarımızı görselleştirdik. Örneğin, yüksek kamera çözünürlüğüne sahip telefonların genellikle daha yüksek fiyatlarla satıldığını tespit ettik. Benzer şekilde, daha fazla depolama alanına sahip telefonlar da genellikle daha pahalıdır. Analizlerimiz, telefon özelliklerinin fiyat üzerinde önemli bir etkisi olduğunu doğruladı.
+
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
-<!-- ======================================================================= -->
-<!-- ============================== NOTLAR ================================= -->
-<!-- ======================================================================= -->
-[^1]: Öğrenci Numarası, [Github Repo](https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ)
 
-# Final Hakkında Önemli Bilgiler
 
-\colorbox{BurntOrange}{GITHUB REPO BAĞLANTINIZI BU DOSYANIN 37. SATIRINA YAZINIZ!}
+[^1]: 18080112, [Github Repo](https://github.com/goksu-V/but.git)
 
-**Proje gönderimi, Github repo linki ile birlikte ekampus sistemine bir zip dosyası yüklenerek yapılacaktır. Sisteme zip dosyası yüklemezseniz ve Github repo linki vermezseniz ara sınav ve final sınavlarına girmemiş sayılırsınız.**
 
-**Proje klasörünüzü sıkıştırdıktan sonra (`OgrenciNumarasi.zip` dosyası) 9 Haziran 2023 23:59'a kadar *ekampus.ankara.edu.tr* adresine yüklemeniz gerekmektedir.**
-
-\colorbox{WildStrawberry}{Daha fazla bilgi için proje klasöründeki README.md dosyasını okuyunuz.}
 
 # Giriş
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
-
-
-Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir. Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
+Telefon özellikleri ve fiyat analizi, günümüzde mobil telefon pazarındaki hızlı değişim ve rekabet ortamının bir sonucudur. Mobil teknolojinin sürekli ilerlemesiyle birlikte, tüketicilerin telefon seçiminde daha bilinçli ve kapsamlı bir karar verme süreci geçirmeleri gerekmektedir. Bu noktada, telefon özellikleri ve fiyatları arasındaki ilişkiyi anlamak, hem tüketicilere doğru ürünü seçme konusunda rehberlik etmek hem de telefon üreticilerinin rekabet avantajı elde etmelerine katkı sağlamak açısından büyük bir önem taşımaktadır. Telefon özellikleri, günümüzde pek çok çeşitlilik göstermektedir. İşletim sistemleri, işlemci hızı, RAM kapasitesi, depolama alanı, kamera kalitesi, batarya ömrü, ekran boyutu gibi faktörler, tüketicilerin telefon seçiminde dikkate aldıkları temel özellikler arasında yer almaktadır. Her bir özellik, telefonun kullanım deneyimini etkileyen önemli bir faktördür. Örneğin, yüksek kamera çözünürlüğüne sahip bir telefon, daha kaliteli fotoğraf ve video çekme imkanı sunarken, daha fazla depolama alanı, kullanıcılara daha geniş bir veri depolama kapasitesi sağlamaktadır. Bu özelliklerin her birinin, tüketiciler üzerinde farklı bir değere sahip olduğu bilinmektedir. Fiyat ise, tüketicilerin telefon seçiminde en önemli faktörlerden biridir. Her bütçeye uygun telefon modelleri bulunmasına rağmen, fiyatlar genellikle telefonun özelliklerine ve markasına bağlı olarak değişiklik göstermektedir. Telefon üreticileri, rekabetçi bir ortamda tüketicilerin taleplerini karşılamak ve farklı pazar segmentlerine hitap etmek amacıyla farklı fiyat aralıklarında çeşitli modeller sunmaktadır. Bu noktada, telefon özellikleri ve fiyatları arasındaki ilişkinin analiz edilmesi, tüketicilere bütçelerine uygun en iyi telefonu seçme konusunda yardımcı olmaktadır. Bu veri seti analizi, telefon özelliklerinin fiyat üzerindeki etkisini ve tüketicilerin hangi özellikleri daha değerli gördüklerini belirlemeyi amaçlamaktadır. Elde edilen bulgular, tüketicilere doğru ürün seçiminde rehberlik etmek için değerli bir kaynak sağlayacaktır. Aynı zamanda, telefon üreticilerine de pazar taleplerini daha iyi anlama ve fiyatlandırma stratejilerini geliştirme konusunda yol gösterici olacaktır. Telefon özellikleri ve fiyat analizi, mobil telefon pazarındaki rekabetin artmasıyla birlikte giderek daha önemli hale gelmekte ve tüketicilerin telefon seçiminde bilinçli kararlar vermelerine yardımcı olmaktadır.
 
 ## Çalışmanın Amacı
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+Bu çalışmanın temel amacı, telefon özellikleri ve fiyatları arasındaki ilişkiyi analiz etmek ve tüketicilere doğru telefon seçimi konusunda rehberlik etmektir. Mobil telefon pazarı giderek rekabetçi bir hale gelirken, tüketicilerin doğru seçimi yapabilmesi için objektif verilere dayalı bilgilere ihtiyaç duymaktadır. Bu çalışmada kullanılan veri seti, farklı telefon modellerinin çeşitli özelliklerini ve fiyatlarını içermektedir. Telefon özellikleri, işletim sistemi, kamera kalitesi, depolama kapasitesi, batarya ömrü gibi faktörleri içermektedir. Fiyat ise, tüketicilerin bütçeleriyle uyumlu telefon seçimi yapabilmesi için önemli bir kriterdir. Veri setinin analizi, telefon özelliklerinin fiyat üzerindeki etkisini ve tüketicilerin hangi özellikleri daha değerli gördüğünü anlamamızı sağlayacaktır. Bu analiz sonuçları, tüketicilere doğru telefon seçiminde yol gösterici olacaktır. Örneğin, kullanıcılar yüksek kamera çözünürlüğüne veya geniş depolama alanına daha fazla önem veriyorsa, bu analiz sonuçlarına dayanarak daha uygun bir telefon seçimi yapabileceklerdir. Ayrıca, telefon üreticileri için de bu analiz sonuçları değerli bir kaynak olacaktır. Rekabetçi bir pazarda, tüketicilerin taleplerini ve tercihlerini anlamak önemlidir. Analiz sonuçları, üreticilere pazarda talep gören özellikleri belirlemeleri ve fiyatlandırma stratejilerini optimize etmeleri konusunda rehberlik edecektir. Bu çalışmanın amacı, tüketicilere doğru telefon seçimi konusunda bilgi sağlamak ve telefon üreticilerine rekabet avantajı sağlamak için telefon özellikleri ve fiyatları arasındaki ilişkiyi anlamaktır. Veri analiziyle elde edilen bulgular, pazarda doğru kararlar verilmesini destekleyerek, hem tüketicilere hem de telefon üreticilerine değerli bilgiler sunacaktır.
 
 ## Literatür 
+@kimzan2015tuketicilerin
+@izmir2ozelliklerine
+@efendiouglu4cep
+@shahzad2013investigating
+@kim2018measuring
 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az altı** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+Bu makaleler cep telefonu satın alma kararıyla ilgili faktörleri ve tüketicilerin tercihlerini araştırmaktadır. Kimzan'ın çalışması, içsel referans fiyat seçiminin tüketicilerin satın alma kararlarını nasıl etkilediğini incelemekte, İzmir'in makalesi ise cep telefonu tercihinde uygulama kategorisi seçimiyle ilişkisini araştırmaktadır. Efendioğlu, Mutlu ve Durmaz'ın çalışması, Y kuşağı tüketicilerin cep telefonu satın alma kararında markanın etkisini ele almaktadır. Shahzad ve Rohi'nin araştırması, Peshawar'daki özel üniversite öğrencileri arasında mobil telefon marka tercihini etkileyen faktörleri incelemektedir. Son olarak, Kim'in çalışması, mobil telefon özellikleri için ödeme yapma isteğini ölçen çoklu bölge bir araştırmadır. Bu makaleler, cep telefonu satın alma kararlarını etkileyen faktörler hakkında bilgi sağlamakta ve tüketicilerin tercihlerini anlamaya yönelik araştırmalara odaklanmaktadır.
 
-# Veri 
-Bu bölümde çalışmanızda kullandığınız veri setinin kaynağını, ham veri üzerinde herhangi bir işlem yaptıysanız bu işlemleri ve veri seti ile ilgili özet istatistikleri tartışınız. Bu bölümde tüm değişkenlere ait özet istatistikleri (ortalama, standart sapma, minimum, maksimum, vb. değerleri) içeren bir tablo (Tablo \ref{tab:ozet}) olması zorunludur. Tablolarınıza gerekli göndermeleri bir önceki cümlede gösterildiği gibi yapınız. [@perkins:1991]
+# Veri
 
-Analize ait R kodları bu bölümde başlamalıdır. Bu bölümde veri setini R'a aktaran ve özet istatistikleri üreten kodlar yer almalıdır.
+```{r echo=FALSE, results='asis'}
+library(xtable) 
+# devtools::install_github("emraher/summarytools")
+library(summarytools)
+st_options(lang = "tr")
+ds%>%
+  select("Agirlik","Uzunluk","Genislik","EkranBoyutu","KameraSayisi","SimKarti","Ram","Fiyat")%>% 
+  descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE)%>% 
+  xtable(caption = "Özet İstatistikler",
+         label = "tab:ozet",
+         align = c("l", "c", "c", "c", "c", "c"))%>% 
+  print(booktabs = TRUE, comment = FALSE, caption.placement="top")
+```
 
 ```{r}
 library(tidyverse)
 library(here)
-survey <- read_csv(here("../data/survey.csv"))
+ds <- read_csv(here("../data/ds.csv"))
 ```
 
 Rmd dosyasında kod bloklarının bazılarında kod seçeneklerinin düzenlendiğine dikkat edin. 
